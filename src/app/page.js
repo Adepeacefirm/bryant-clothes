@@ -14,7 +14,12 @@ const page = async () => {
   const products = await fetchProducts();
   console.log(products);
 
-  return <div>page</div>;
+  return (
+    <div>
+      <h1>Hello</h1>
+      
+    </div>
+  );
 };
 
 export default page;

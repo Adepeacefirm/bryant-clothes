@@ -1,5 +1,8 @@
+"use client";
+
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
+import React from "react";
 
 export const authOptions = {
   providers: [
